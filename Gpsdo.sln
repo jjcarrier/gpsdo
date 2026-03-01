@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11520.95
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gpsdo", "app\gpsdo.csproj", "{7A2AC7B1-8E9E-736A-2C71-E575D4E03007}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libGpsdo", "libGpsdo\libGpsdo.csproj", "{DBCF8601-2C0B-BE22-A365-AC41FF113DAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A2AC7B1-8E9E-736A-2C71-E575D4E03007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2AC7B1-8E9E-736A-2C71-E575D4E03007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2AC7B1-8E9E-736A-2C71-E575D4E03007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2AC7B1-8E9E-736A-2C71-E575D4E03007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBCF8601-2C0B-BE22-A365-AC41FF113DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCF8601-2C0B-BE22-A365-AC41FF113DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCF8601-2C0B-BE22-A365-AC41FF113DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCF8601-2C0B-BE22-A365-AC41FF113DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DB43989-CE82-4D0D-B849-37DE52219D94}
+	EndGlobalSection
+EndGlobal
