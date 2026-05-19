@@ -294,12 +294,12 @@ namespace GpsdoCli
                     if (temporary)
                     {
                         dev.SetFrequencyTemp(output, fInt, fFract);
-                        Console.WriteLine(string.Format(CultureInfo.InvariantCulture, CliMessages.SetFrequencyTemporary, output, fDouble));
+                        Console.WriteLine(string.Format(CultureInfo.InvariantCulture, CliMessages.SetFrequencyTemporary, (int)output, fDouble));
                     }
                     else
                     {
                         dev.SetFrequency(output, fInt, fFract);
-                        Console.WriteLine(string.Format(CultureInfo.InvariantCulture, CliMessages.SetFrequencySaved, output, fDouble));
+                        Console.WriteLine(string.Format(CultureInfo.InvariantCulture, CliMessages.SetFrequencySaved, (int)output, fDouble));
                     }
                     return true;
                 }
