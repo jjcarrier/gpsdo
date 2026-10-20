@@ -386,7 +386,6 @@ namespace GpsdoCli
             {
                 var freq = f2Args[0];
                 bool save = f2Args.Length > 1 && f2Args[1].Equals("save", StringComparison.OrdinalIgnoreCase);
-                Console.WriteLine(save);
                 if (SetFrequency(dev, output: GpsdoOutput.Two, freq: freq, temporary: !save))
                 {
                     changed = true;
