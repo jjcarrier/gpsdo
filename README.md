@@ -4,7 +4,7 @@ A portable .NET Core CLI tool for controlling the LBE-142x GPS Disciplined Oscil
 (GPSDO) via USB HID.
 
 > [!NOTE]
-> At this time only the LBE-1424 GPSDO has been tested for compatibility.
+> At this time only the LBE-1425 GPSDO has been tested for compatibility.
 > Please do not hesitate to report issues seen when using other GPSDO versions!
 
 ## Features
@@ -87,7 +87,7 @@ source /path/to/GpsdoCompletion.sh
 ## Requirements
 
 - .NET 10.0 SDK
-- LBE-142x GPSDO hardware (currently tested for LBE-1424)
+- LBE-142x GPSDO hardware (currently tested for LBE-1425)
 
 ## License
 
