@@ -282,7 +282,7 @@ namespace GpsdoCli
             uint maxCh2Freq = (dev.Model == GpsdoModel.LBE_1421) ? 160000000U : 1400000000U;
             uint maxFreq = (output == GpsdoOutput.One) ? maxCh1Freq : maxCh2Freq;
             (uint fInt, uint fFract, double fDouble, bool parseOk) = StringToQ32_32(freq);
-            if (!parseOk | fInt < 1 || fDouble > maxCh1Freq)
+            if (!parseOk || fInt < 1 || fDouble > maxCh1Freq)
             {
                 Console.Error.WriteLine(string.Format(CultureInfo.InvariantCulture, CliMessages.InvalidFrequency, output, freq, maxFreq));
                 return false;
